@@ -1,0 +1,645 @@
+/*====================================== 
+
+        Section One (Main Page)
+
+========================================*/
+
+#section-one {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading a {
+  text-decoration: none;
+}
+
+.title {
+  color: #fff;
+}
+
+.dot {
+  color: #fd4d40;
+  font-size: 3rem;
+}
+
+.place-time {
+  display: flex;
+}
+
+.place {
+  padding: 10px;
+  display: flex;
+  margin-right: 16px;
+}
+
+.place i {
+  position: relative;
+  bottom: 6px;
+}
+
+.place p {
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.place i,
+.time i {
+  margin-right: 10px;
+}
+
+.location__details {
+  color: #feeb01;
+}
+
+.time__details {
+  color: red;
+}
+
+.time {
+  display: flex;
+  padding: 10px;
+}
+
+.working-details p {
+  color: white;
+  line-height: 0.5;
+  /* font-weight: 500; */
+  font-size: 0.9rem;
+}
+
+.navbar__details {
+  display: flex;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 60px;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__links {
+  display: flex;
+  align-content: center;
+}
+
+.navbar__links li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2%;
+}
+
+.navbar__links li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#link__active {
+  color: #fd4d40;
+}
+
+.social__icons {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.social__icons a i:first-child {
+  color: #11bcee;
+}
+
+.tweet {
+  color: #19e656 !important;
+}
+
+.in {
+  color: gold !important;
+}
+
+.child__image {
+  mix-blend-mode: multiply;
+  filter: brightness(110%);
+}
+
+.interactive__text {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.welcome,
+.small-heading {
+  font-family: "Indie Flower", cursive;
+  color: #fd4d40;
+  font-size: 1.5rem;
+}
+
+.bring-fun {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.playground {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.button {
+  color: white;
+  padding: 20px;
+  outline: none;
+  border: none;
+  margin-top: 60px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  filter: brightness(95%);
+}
+
+.learn__more {
+  background-color: #dc3545;
+}
+
+/*====================================== 
+
+        Section Two (Features)
+
+=======================================*/
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.features-card,
+.feature-logo {
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.feature-logo {
+  border-radius: 60px;
+  position: relative;
+  top: -55px;
+  padding: 30px;
+  margin-bottom: -30px;
+}
+
+.features-card h4 {
+  font-weight: 350;
+}
+
+.features-card p {
+  color: #ffffffb3;
+}
+
+.features-card1,
+.feature-logo1 {
+  background-color: #fd4d40;
+}
+
+.features-card2,
+.feature-logo2 {
+  background-color: #fdb62f;
+}
+
+.features-card3,
+.feature-logo3 {
+  background-color: #16c3b0;
+}
+
+/*===================================== 
+
+      Section Three (About Us)
+
+======================================*/
+
+#section-three {
+  background-color: #f6f5f5;
+}
+
+.about-us {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 115px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.children-image {
+  width: 50%;
+  height: 50%;
+}
+
+.about-us-description {
+  margin-left: 70px;
+}
+
+.about-us-description p {
+  color: gray;
+}
+
+.more_about_us {
+  background-color: #fdb62f;
+}
+
+/*=======================================
+
+      Section Four (Our Packages)
+
+=======================================*/
+
+#section-four {
+  background-color: #17a2b8;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+
+.packages {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.package__image {
+  width: 30%;
+  height: 30%;
+}
+
+.package-card {
+  background-color: #fff;
+  margin-right: 20px;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.package-card h3 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.package_one {
+  color: #16ceb0;
+}
+
+.package_two {
+  color: #71bc42;
+}
+
+.package_three {
+  color: #dc3545;
+}
+
+.package-card p {
+  font-size: 1rem;
+  color: #777777;
+}
+
+.package-card button {
+  margin-bottom: 30px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.white {
+  color: white;
+}
+
+.yellow {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.green {
+  background-color: #71bc42;
+  color: #000;
+}
+
+/*================================== 
+
+      Section Five (Pricing)
+
+===================================*/
+
+#section-five {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pricing-plan {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.our-pricing-div {
+  width: 25%;
+}
+
+.golden-pack,
+.silver-pack {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.silver-pack span {
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border: 13px solid #20c997;
+  border-radius: 999px;
+}
+
+.golden-pack span {
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border: 13px solid #fd4d40;
+  border-radius: 999px;
+}
+
+.price {
+  font-size: 1.3rem;
+  padding: 20px;
+  width: fit-content;
+  margin: 8px;
+  border-radius: 800px;
+}
+
+.silver-pack h1,
+.golden-pack h1 {
+  font-size: 1.5rem;
+}
+
+.silver-pack h3,
+.golden-pack h3 {
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.silver {
+  background-color: #20c997;
+}
+
+.gold {
+  background-color: #fd4d40;
+}
+
+.tick {
+  color: #20c997;
+}
+
+.teal {
+  background-color: #20c997;
+}
+
+.red {
+  background-color: #fd4d40;
+}
+
+.tick-red {
+  color: #fd4d40;
+}
+
+/*========================================
+
+      Section Six (Testimonials)
+
+=========================================*/
+
+#section-six {
+  background-color: #f6f5f5;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonial {
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.testimonials-carousel {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.testimonial-image {
+  width: 12%;
+  height: 10%;
+  margin-left: 50px;
+  position: relative;
+  top: 65px;
+  left: 28px;
+}
+
+.testimonial__details {
+  margin-top: -60px;
+}
+
+.testimonial__details p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.carousel-item {
+  padding: 30px;
+  background-color: #fd4d40;
+}
+
+.carousel__item {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.designation {
+  color: #ffffff80;
+}
+
+.numerics {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.clients h2 {
+  color: #16c3b0;
+}
+
+.members h2 {
+  color: #fdb62f;
+}
+
+.staff h2 {
+  color: #71bc42;
+}
+
+.followers h2 {
+  color: #dc3545;
+}
+
+.clients p,
+.members p,
+.staff p,
+.followers p {
+  color: #364d59;
+}
+
+/*========================================
+
+      Section Seven (Get Started)
+
+=========================================*/
+
+#section-seven {
+  background-color: #ffc107;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.get-started {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-started h1 {
+  color: white;
+}
+
+/*========================================
+
+      Section Eight (Footer)
+
+=========================================*/
+
+#footer {
+  background-color: #343a40;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#footer h4 {
+  font-size: 1.2rem;
+}
+
+.footer-about-us {
+  width: 70%;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-about-us-div {
+  padding-bottom: 35px;
+}
+
+.about-us-newsletter-div {
+  width: 35%;
+}
+
+.footer-about-us h4 {
+  color: #dc3545;
+}
+
+.newsletter-email input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.newsletter-email input:focus {
+  outline: none;
+  border: none;
+}
+
+.send {
+  border-radius: 30px;
+  background-color: #dc3545;
+  border: none;
+  outline: none;
+  padding: 18px;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
+
+.send:focus {
+  outline: none;
+}
+
+.send:hover {
+  filter: brightness(95%);
+}
+
+.navigation {
+  padding-bottom: 100px;
+}
+
+.navigation h4 {
+  padding-bottom: 15px;
+  text-align: center !important;
+}
+
+.navigation li {
+  list-style: none;
+  color: #ffffffcc;
+  text-align: left !important;
+  padding-bottom: 10px;
+}
+
+hr {
+  color: #ffffffcc;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.copyright {
+  padding-top: 50px;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
