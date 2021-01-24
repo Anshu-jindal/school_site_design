@@ -401,6 +401,8 @@ button:focus {
 .silver-pack h1,
 .golden-pack h1 {
   font-size: 1.5rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .silver-pack h3,
