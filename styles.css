@@ -186,7 +186,7 @@ button:hover {
 .features {
   display: flex;
   justify-content: space-around;
-  width: 70%;
+  /* width: 70%; */
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -197,6 +197,7 @@ button:hover {
   color: #fff;
   margin: 20px;
   padding: 20px;
+  padding-bottom: 48px;
   padding-top: 0px;
   text-align: center;
 }
@@ -258,6 +259,8 @@ button:hover {
 
 .about-us-description {
   margin-left: 70px;
+  margin-right: 40px;
+  padding-top: 40px;
 }
 
 .about-us-description p {
@@ -289,8 +292,7 @@ button:hover {
 }
 
 .package__image {
-  width: 30%;
-  height: 30%;
+  max-height: 150px;
 }
 
 .package-card {
@@ -300,6 +302,8 @@ button:hover {
   padding-top: 40px;
   padding-bottom: 20px;
   border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .package-card h3 {
@@ -584,6 +588,11 @@ button:focus {
   color: #dc3545;
 }
 
+.newsletter-email {
+  display: flex;
+  margin-bottom: 20px;
+}
+
 .newsletter-email input {
   padding: 10px;
   border: none;
@@ -644,4 +653,128 @@ hr {
   margin: 0 auto;
   color: #fff;
   text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .heading,
+  .navbar__details,
+  .interactive__text,
+  .features,
+  .about-us,
+  .packages {
+    width: 80%;
+  }
+
+  .testimonial-image {
+    width: 18%;
+  }
+
+  .testimonial,
+  .numerics {
+    width: 70%;
+  }
+
+  .footer-about-us,
+  hr,
+  .copyright {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-us {
+    width: 95%;
+  }
+
+  .packages {
+    flex-direction: column;
+  }
+
+  .package__image {
+    width: fit-content;
+    height: fit-content;
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .features-card {
+    margin-bottom: -20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .place-time {
+    flex-direction: column;
+  }
+
+  .interactive__text {
+    flex-direction: column;
+  }
+
+  .interactive__text div {
+    text-align: center;
+  }
+
+  .testimonial__details {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .our-pricing-div,
+  .silver-pack,
+  .golden-pack {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .pricing-plan {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    /* width: 80%; */
+    /* text-align: center; */
+  }
+  .silver-pack span,
+  .golden-pack span {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 780px) {
+  .get-started {
+    flex-direction: column;
+  }
+
+  .get-started h1 {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-us-newsletter-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial,
+  .numerics {
+    width: 90%;
+  }
+}
+
+@media (max-width: 530px) {
+  .heading {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 390px) {
+  .working-details p {
+    line-height: 1;
+  }
 }
