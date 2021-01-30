@@ -15,3 +15,7 @@
 - Then it contains a section of testimonials which contains a carousel of 3 people which tells us about the school and how good it is
 - Then there is a get started button
 - At last there is a footer for navigation and newsletter part
+
+# Link to live site
+
+https://anshu-jindal.github.io/school_site_design/
