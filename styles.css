@@ -8,6 +8,10 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.flex1 {
+  flex: 1;
+}
+
 .heading {
   display: flex;
   justify-content: space-between;
@@ -724,6 +728,11 @@ hr {
   margin: 0 auto;
   color: #fff;
   text-align: center;
+}
+
+.non-social-icons-div {
+  display: flex;
+  flex: 1;
 }
 
 @media (max-width: 1440px) {
